@@ -1,7 +1,8 @@
 ---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/ajpetrte/public_html/lausgroupeventcentre.com/
-    - /bin/mkdir -p $DEPLOYPATH
-    - /bin/rm -rf $DEPLOYPATH*
-    - /bin/cp -R $REPOPATH/dist/. $DEPLOYPATH
+    tasks:
+        - export DEPLOYPATH=/home/ajpetrte/public_html/lausgroupeventcentre.com/
+        - export REPOPATH=/home/ajpetrte/repositories/lausgroup-event-centre
+        - /bin/mkdir -p $DEPLOYPATH
+        - /bin/rm -rf $DEPLOYPATH*
+        - /bin/cp -R $REPOPATH/dist/. $DEPLOYPATH
