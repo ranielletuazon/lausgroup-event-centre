@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+</IfModule>
+
+<FilesMatch "\.(php|phtml|php5|php7|php8|py|exe|sh|cgi|pl|suspected)$">
+    Require all denied
+</FilesMatch>
+
+Options -Indexes
