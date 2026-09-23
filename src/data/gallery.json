@@ -1,0 +1,58 @@
+[
+    {
+        "id": 13,
+        "filename": "wedding.jpg",
+        "category": "weddings",
+        "date": "2024-06-15",
+        "title": "Wedding Reception Setup"
+    },
+    {
+        "id": 14,
+        "filename": "stage.jpg",
+        "category": "graduations",
+        "date": "2024-06-16",
+        "title": "Graduation"
+    },
+    {
+        "id": 15,
+        "filename": "graduation.jpg",
+        "category": "graduations",
+        "date": "2024-06-17",
+        "title": "Colegio de Sebastian - Graduation"
+    },
+    {
+        "id": 16,
+        "filename": "pageants.jpg",
+        "category": "pageants",
+        "date": "2025-06-24",
+        "title": "Mutya ng Pilipinas Pampanga"
+    },
+    {
+        "id": 17,
+        "filename": "lgec-vip-suite.jpg",
+        "category": "Others",
+        "date": "2022-07-06",
+        "title": "LausGroup Event Centre's VIP Suite"
+    },
+    {
+        "id": 18,
+        "filename": "lounge.jpg",
+        "category": "Others",
+        "date": "2022-07-06",
+        "title": "LausGroup Event Centre's Lounge"
+    },
+    {
+        "id": 19,
+        "filename": "covered-foyer.jpg",
+        "category": "Others",
+        "date": "2022-07-06",
+        "title": "LausGroup Event Centre's Covered Foyer"
+    },
+    {
+        "id": 20,
+        "filename": "hall-a-and-b.jpg",
+        "category": "Others",
+        "date": "2022-07-06",
+        "title": "LausGroup Event Centre's Hall"
+    }
+]
