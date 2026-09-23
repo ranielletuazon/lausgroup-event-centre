@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ajpetrte/public_html/lausgroupeventcentre.com/
-    - cd $REPOPATH && npm install && npm run build
+    - /bin/mkdir -p $DEPLOYPATH
     - /bin/rm -rf $DEPLOYPATH*
     - /bin/cp -R $REPOPATH/dist/. $DEPLOYPATH
